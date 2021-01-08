@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled18.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyObnw/aMwwpDlFwYpLdKkbX",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/anhduc02/anhduc02/blob/main/cccccccc%5C\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1F-oPCGtU-5-",
+        "outputId": "31b2b2fe-3787-4fa8-e775-c5e65f2fdf2e"
+      },
+      "source": [
+        "import numpy as np \r\n",
+        "p = [ [ 1, 2, 3 ], [ 4, 5, 6 ] ]   \r\n",
+        "d = np.array(p) \r\n",
+        "print('b',d)\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "import numpy as np #chuyển vị\r\n",
+        "p = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]\r\n",
+        "d = np.array(p)\r\n",
+        "d_t = np.transpose(d)\r\n",
+        "print('a',d)\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "import numpy as np\r\n",
+        "p = [ [ 1, 2 ], [ 3, 4 ], [ 5, 6 ] ]\r\n",
+        "d = np.array(p) \r\n",
+        "m = [ [1, 3], [2, 1] ]\r\n",
+        "n = np.array(m) \r\n",
+        "print(p)\r\n",
+        "print(n)\r\n",
+        "print('p * n:', d.dot(n))\r\n"
+      ],
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "b [[1 2 3]\n",
+            " [4 5 6]]\n",
+            "a [[1 2 3]\n",
+            " [4 5 6]\n",
+            " [7 8 9]]\n",
+            "[[1, 2], [3, 4], [5, 6]]\n",
+            "[[1 3]\n",
+            " [2 1]]\n",
+            "p * n: [[ 5  5]\n",
+            " [11 13]\n",
+            " [17 21]]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
